@@ -1,0 +1,170 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  color: #384047;
+}
+
+.descript
+{
+	 margin: 20px auto;
+  padding: 20px 40px;
+  max-width:70%;
+  background: #fff;
+  border:1px solid #ccc;
+  border-radius: 8px;
+}
+
+h1 {
+  margin: 0 0 30px 0;
+  text-align: center;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="datetime"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea,
+select {
+  background: rgba(255,255,255,0.1);
+  
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  background-color: #eee;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px;
+}
+input[type="date"]::-webkit-clear-button {
+    font-size: 18px;
+    height: 28px;
+    position: relative;
+
+  }
+ input[type="date"]::-webkit-inner-spin-button {
+    height: 26px;
+	olor:#555;
+  }
+
+  input[type="date"]::-webkit-calendar-picker-indicator{
+    font-size: 15px;
+	color:#555;
+   }
+#contrat,#salaire{
+	width: 100%;
+}
+#ville,#region{
+	width: 100%;
+}	
+#etude,#experience{
+	width: 100%;
+}
+#calendrier
+{ width: 100%;
+  padding: 6px;border:1px solid #ccc;
+  height: 38px;
+  border-radius: 2px;
+}	
+#nbrPoste{
+	width:100%;
+	padding: 6px;border:1px solid #ccc;
+  height: 38px;
+  border-radius: 2px;
+}
+#titre
+{padding: 6px;border:1px solid #ccc;
+  height: 38px;
+  border-radius: 2px;
+  }	
+.description{height:150px;width:100%;}  
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0 4px 8px 0;
+}
+
+select {
+  padding: 6px;
+  height: 32px;
+  border-radius: 2px;
+}
+
+button {
+  padding: 19px 39px 18px 39px;
+  color: #FFF;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid #3ac162;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  margin-bottom: 10px;
+}
+.enregistre{width:30%; height:38px; margin-left:15px;}
+fieldset {
+  margin-bottom: 30px;
+  border: none;
+}
+
+legend {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+label.light {
+  font-weight: 300;
+  display: inline;
+}
+
+.number {
+  background-color: #5fcf80;
+  color: #fff;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  font-size: 0.8em;
+  margin-right: 4px;
+  line-height: 30px;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+  border-radius: 100%;
+}
+/*****************Update Info-******/
+.group{margin-bottom:20px;}
+.error_msg{color:red;font-size:14px;margin:0;}
+/****************Edit data*************/
+.descript1
+{
+	 margin:4% auto;
+  padding: 40px 40px;
+  width:80%;
+  background: #fff;
+  border:1px solid #ccc;
+  border-radius: 4px;
+  box-shadow:0 8px 10px rgba(0, 0, 0, 0.5);
+}
+.btn-updateoffre{width:80%;}
+/************************************/
+@media screen and (min-width: 480px) {
+
+  form {
+  }
+
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="http://tinymce.cachefly.net/4.2/tinymce.min.js"></script>
+  <script type="text/javascript">
+  tinymce.init({
+    selector: '#a',
+	height:150,
+    inline: true,
+    menubar: false,
+    toolbar: 'bold,italic,underline,|,alignleft,aligncenter,alignright,alignjustify'
+  });
+  </script>
+  <script>
+  tinymce.init({
+    selector: '#myeditable-div',
+    inline: true
+  });
+  </script>
+</head>
+
+<body>
+  <form method="post">
+    <textarea  id="a" name="user_bio"></textarea>
+  </form>
+
+  <form method="post">
+    <div id="myeditable-div">
+      <p>This section of content can be edited. Click here to see how.</p>
+    </div>
+  </form>
+</body>
+</html>
